@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+nav{
+display: flex;
+}
+
+nav > div {
+    height: 90px;
+}
+
+nav > .left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+nav > .right{
+    width: 40%;
+    padding-right: 30px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right > a {
+    font-size: 25px;
+}
+
+nav > div > img{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    background-image: url("../images//landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+main > h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+main > h2{
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+}
+
+.up{
+    display: flex;
+    justify-content: center;
+}
+
+.up > h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-bottom: #00B172 solid 4px;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+#section1 .down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.down img {
+    height: 120px;
+}
+
+.down > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.down > div {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down > div > h4{
+    color: #00B172;
+    font-size: 25px;
+}
+
+.down > div > p{
+    max-width: 250px;
+    text-align: center;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00B172;
+    color: white;
+    padding: 70px 200px;
+}
+
+
+#spotifyApp {
+    height: 600px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#section2 > .left{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle{ 
+    display: flex;
+}
+
+.container{
+    height: 90%;
+
+}
+
+.left > h3{
+    font-size: 30px;
+    border-bottom: 4px solid white;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+}
+
+.container h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.posibilities{
+    margin-bottom: 30px;
+
+}
+
+#spotifyIcon{
+    height: 100px;
+}
+
+.middlePos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.posibilities p{
+    max-width: 280px;
+}
